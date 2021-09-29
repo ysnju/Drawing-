@@ -1,3 +1,4 @@
+```py
 def my_title(name):
     print("The input is",name)
     if 97 <= ord(name[0]) and 122>= ord(name[0]):
@@ -43,3 +44,4 @@ box1("Hello", False)
 
 
 #changed
+```
