@@ -1,4 +1,5 @@
 Kojis box
+
 ```py
 
 def conv(input1):
@@ -34,4 +35,16 @@ def conv(input1):
 output1 = conv(10)
 print(output1)
 
+```
+Reiji codes
+```py
+def mystery_box2(num):
+    z=1
+    x=1
+    for i in range (num):
+        z*=x
+        x+=1
+    return z
+output2=mystery_box2(5)
+print(output2)
 ```
