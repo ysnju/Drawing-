@@ -1,0 +1,23 @@
+```py
+def secret_encoder(key:int,message:str):
+    '''
+    These are comments describing the function
+    :param key: the shift og the Caesar cypher
+    :param message: message that we need to encode
+    :return: secret_message
+    '''
+    message =message.lower()
+    secret_message=""
+    for idx in range (len(message)):
+        letter = message[idx]
+        code = ord(letter) + key
+        if code > 122:
+            code -= 26
+        encoded_letter = chr(code)
+        #Use concatenation to rebuild the message
+        secret_message += encoded_letter
+    return secret_message
+
+test = secret_encoder(17,"anju")
+print(test)
+```
