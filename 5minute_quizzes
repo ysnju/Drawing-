@@ -1,0 +1,37 @@
+Quiz1 Oct5
+'''py
+def even_number(num1,num2:int)
+  result = False
+  if (num1 + num2)%2 == 0:
+    result = True
+    
+   else:
+    result = False
+    
+    return result
+    
+'''
+
+Quiz2
+'''py
+def difference(A,B,C:int)
+  result = 0
+  if A<B<C:
+    result(C-A)
+  if A<B<C:
+    result(C-A)
+  if A<B<C:
+    result(C-A)
+  if A<B<C:
+    result(C-A)
+  if A<B<C:
+    result(C-A)
+  if A<B<C:
+    result(C-A)
+'''
+    
+   
+    
+   
+    
+  
